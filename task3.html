@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 50px 50px 50px 100px;
+            grid-template-rows: 50px 50px 50px 100px;
+            background-color: rgb(190,228,241);
+            border-radius: 30px;
+            margin:auto;
+            width: 600px;
+            height: 500px;
+        }
+
+        
+.container .first{
+grid-column-start: 1;
+grid-column-end: 8;
+grid-row-start: 1;
+grid-row-end: 3;
+background-color: #02B9AB;
+text-align: center;
+color: #fff;
+margin: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container .second{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 8;
+background-color:#6BD46B;
+text-align: center;
+color: #fff;
+margin: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container .third{
+grid-column-start: 1;
+grid-column-end: 8;
+grid-row-start: 8;
+grid-row-end: 8;
+background-color:#6BD46B;
+text-align: center;
+color: #fff;
+margin: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .container .flex-class{
+grid-column-start: 4;
+grid-column-end: 8;
+grid-row-start: 3;
+grid-row-end: 8;
+background-color: #F3AA4A;
+text-align: center;
+color: #fff;
+margin: 15px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+ .flex-class div{
+flex-direction: row;
+background-color: #F4CB48;
+ margin: 5px;
+  padding: 15px;
+width: 50px;
+height: 50px;
+position: relative;
+top: 75px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">Header</div>
+        <div class="second">Aside</div>
+        <div class="flex-class"> Article
+            <div>image</div>
+            <div>image</div>
+            <div>image</div>
+        </div>
+        <div class="third">Footer</div>
+
+    </div>
+</body>
+</html>

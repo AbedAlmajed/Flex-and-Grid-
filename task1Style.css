@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-columns :100px 100px 100px 100px 100px 100px 150px 100px;
+    grid-template-rows: 50px 100px 100px 50px 50px 80px 50px 50px;
+    gap: 8px;
+}
+
+.container div:nth-child(1){
+grid-column-start: 1;
+grid-column-end: 12;
+grid-row-start: 1;
+grid-row-end: 1;
+background-color: rgb(99,234,86);
+text-align: center;
+color: #fff;
+}
+.container div:nth-child(2){
+grid-column-start: 1;
+grid-column-end: 6;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: rgb(212,201,225);
+text-align: center;
+
+color: #fff;
+}
+
+.container div:nth-child(3){
+grid-column-start: 6;
+grid-column-end: 12;
+grid-row-start: 2;
+grid-row-end: 4;
+background-color: rgb(181,159,96);
+text-align: center;
+color: #fff;
+}
+
+.container div:nth-child(4){
+grid-column-start: 1;
+grid-column-end: 6;
+grid-row-start: 3;
+grid-row-end: 6;
+background-color: rgb(73,90,41);
+text-align: center;
+color: #fff;
+} 
+ 
+.container div:nth-child(5){
+grid-column-start: 6;
+grid-column-end: 12;
+grid-row-start: 4;
+grid-row-end: 6;
+background-color:rgb(164,176,147);
+text-align: center;
+color: #fff;
+}
+
+.container div:nth-child(6){
+grid-column-start: 1;
+grid-column-end: 9;
+grid-row-start: 6;
+grid-row-end: 7;
+background-color:#2A81B6;
+text-align: center;
+color: #fff;
+}
+
+.container div:nth-child(7){
+grid-column-start: 9;
+grid-column-end: 12;
+grid-row-start: 6;
+grid-row-end: 7;
+background-color: #C6477B;
+text-align: center;
+color: #fff;
+
+}
+
+.container div:nth-child(8){
+grid-column-start: 1;
+grid-column-end: 12;
+grid-row-start: 7;
+grid-row-end: 7;
+background-color: #0008FF;
+text-align: center;
+color: #fff;
+
+} 
